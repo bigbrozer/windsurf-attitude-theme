@@ -1,0 +1,15 @@
+{
+  "name": "windsurf-attitude-theme",
+  "version": "0.0.1",
+  "description": "Windsurf Attitude Theme",
+  "author": "Vincent Besançon",
+  "email": "besancon.vincent@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "vinyl-ftp": "^0.6.0"
+  }
+}
