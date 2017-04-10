@@ -7,12 +7,23 @@
  **/
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+/* Main */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+#wrapper {
+    background-color: #f1ffcc;
+}
+
+/* Header */
+
 #header .header-nav {
     margin-bottom: 0;
+}
+#header .header-top {
+    background-color: #3b2d6c;
 }
 
 .logo {
@@ -37,4 +48,32 @@ body {
     width: 100% !important;
     height: auto !important;
     z-index: 5;
+}
+
+/* Categories */
+
+.block-category {
+    background-image: url("../img/category_menu_background.jpg");
+    background-size: 105% 105%;
+}
+.block-category h1 {
+    color: #fff;
+}
+.block-category #category-description p {
+    color: #acaaa6;
+}
+.block-category .category-cover {
+    position: absolute;
+    right: .75rem;
+    bottom: 1.5rem;
+}
+.block-category .category-cover img {
+    width: 125px;
+    height: 125px;
+}
+
+/* Products */
+
+.product-price {
+	color: #481de0;
 }
