@@ -25,6 +25,7 @@ var remoteFolder = '/www/themes/windsurf-attitude';
 var localFilesGlob = [
     'assets/**',
     'config/**',
+    'modules/**',
     'templates/**',
     'preview.png',
 ];
