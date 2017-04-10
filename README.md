@@ -18,11 +18,11 @@ Liste des choses à faire...
 
 * [ ] Mettre à jour l'adresse du magasin.
 * [ ] Mettre à jour le téléphone de contact.
-* [ ] Ajouter la photo du magasin dans les pages. **Nous contacter** et **Les magasins**.
+* [X] Ajouter la photo du magasin dans les pages. **Nous contacter** et **Les magasins**.
 
 ### Paiement
 
-* [ ] Configurer le module **Transfert bancaire**.
+* [X] Configurer le module **Transfert bancaire**.
 * [ ] Configurer le module **Amazon Payment** *(nécessaire ?)*.
 
 ### Emails
