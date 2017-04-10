@@ -5,6 +5,10 @@
   "author": "Vincent Besançon",
   "email": "besancon.vincent@gmail.com",
   "license": "MIT",
+  "scripts": {
+      "deploy" : "./node_modules/.bin/gulp deploy",
+      "watch" : "./node_modules/.bin/gulp watch"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-notify": "^3.0.0",
