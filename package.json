@@ -5,6 +5,7 @@
   "author": "Vincent Besançon",
   "email": "besancon.vincent@gmail.com",
   "license": "MIT",
+  "repository": "bigbrozer/windsurf-attitude-theme",
   "scripts": {
       "deploy" : "./node_modules/.bin/gulp deploy",
       "watch" : "./node_modules/.bin/gulp watch"
