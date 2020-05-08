@@ -7,17 +7,21 @@
 
 {block name='header_top'}
   <div class="header-top">
-    <div id="container-fluid">
+    <div class="container">
       <div class="row">
-        <a href="{$urls.base_url}">
-          <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
-        </a>
-        <div class="container-video">
-          <video preload="preload" autoplay="autoplay" loop="loop">
-            <source src="{$smarty.const._THEME_DIR_}assets/video/windsurf_demo.webm" type="video/webm"></source>
-          </video>
+        <div class="col-md-3">
+          <a href="{$urls.base_url}">
+            <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
+          </a>
         </div>
-    </div>
+        <div class="col-md-9">
+          <div class="container-video">
+            <video preload="preload" autoplay="autoplay" loop="loop">
+              <source src="{$smarty.const._THEME_DIR_}assets/video/windsurf_banner.webm" type="video/webm"></source>
+            </video>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="container">
       <div class="row">
