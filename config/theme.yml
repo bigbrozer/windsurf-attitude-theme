@@ -14,7 +14,27 @@ author:
 
 assets:
   use_parent_assets: true
+  css:
+    all:
+      - id: custom-style
+        path: assets/css/custom.css
+        media: all
+        priority: 100
+      - id: fixed-header-style
+        path: assets/css/stickyheader.css
+        media: all
+        priority: 100
 
-all:
-  - id: custom-style
-    path: assets/css/custom.css
+  js:
+    all:
+      - id: fixed-header-script
+        path: assets/js/stickyheader.js
+        priority: 100
+        position: bottom
+
+# global_settings:
+#   hooks:
+#     modules_to_hook:
+#       displayHome:
+#         - ps_featuredproducts
+#         - ps_customtext

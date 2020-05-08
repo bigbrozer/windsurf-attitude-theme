@@ -1,0 +1,45 @@
+/**
+ * Sticky header style for Windsurf Attitude
+ *
+ * Copyright © 2017 Vincent Besançon <besancon.vincent@gmail.com>
+ *                  Windsurf Attitude <https://windsurf-attitude.com>
+ * See LICENSE.
+ **/
+
+/**
+ * Sticky header
+ **/
+
+body.stick_on_scroll #header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .11);
+}
+
+body.stick_on_scroll #header .logo,
+body.stick_on_scroll #header .container-video {
+    display: none;
+}
+
+body.stick_on_scroll #header .header-top {
+    padding-top: 25px;
+}
+
+/**
+ * Modals
+ **/
+
+body.stick_on_scroll .modal {
+    padding-top: 120px;
+}
+
+/**
+ * Main section
+ **/
+
+body.stick_on_scroll #wrapper {
+    padding-top: 230px;
+}
